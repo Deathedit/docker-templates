@@ -3,8 +3,8 @@
   <Name>SPtarkov</Name>
   <Repository>deathedit/sptarkov:beta</Repository>
   <Registry>https://hub.docker.com/r/deathedit/sptarkov</Registry>
-  <Network>bridge</Network>
-  <MyIP/>
+  <Network>br0</Network>
+  <MyIP>192.168.1.234</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
@@ -17,12 +17,12 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1596832508</DateInstalled>
+  <DateInstalled>1596832653</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>br0</Mode>
     <Publish/>
   </Networking>
   <Data>
@@ -44,7 +44,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>TEST</Value>
+      <Value>SPTarkov Server</Value>
       <Name>NAME</Name>
       <Mode/>
     </Variable>
