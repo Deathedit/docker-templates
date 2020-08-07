@@ -53,5 +53,5 @@
   <Config Name="Host Path 2" Target="/sptarkov/user/" Default="" Mode="rw" Description="Container Path: /sptarkov/user/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sptarkov/</Config>
   <Config Name="ip" Target="IP" Default="" Mode="" Description="Container Variable: IP" Type="Variable" Display="always" Required="false" Mask="false">192.168.1.234</Config>
   <Config Name="port" Target="PORT" Default="" Mode="" Description="Container Variable: PORT" Type="Variable" Display="always" Required="false" Mask="false">443</Config>
-  <Config Name="name" Target="NAME" Default="" Mode="" Description="Container Variable: SERVER" Type="Variable" Display="always" Required="false" Mask="false">TEST</Config>
+  <Config Name="name" Target="NAME" Default="" Mode="" Description="Container Variable: SERVER" Type="Variable" Display="always" Required="false" Mask="false">SPTarkov Server</Config>
 </Container>
